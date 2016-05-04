@@ -8,6 +8,6 @@
 
 import UIKit
 
-class GetData: NSObject {
+class GetData {
 
 }
