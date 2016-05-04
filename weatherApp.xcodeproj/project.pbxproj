@@ -14,6 +14,7 @@
 		76B8A48C1CD9CA4F00FBD668 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76B8A48A1CD9CA4F00FBD668 /* LaunchScreen.storyboard */; };
 		76B8A4971CD9CA4F00FBD668 /* wheatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A4961CD9CA4F00FBD668 /* wheatherAppTests.swift */; };
 		76B8A4A21CD9CA4F00FBD668 /* wheatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A4A11CD9CA4F00FBD668 /* wheatherAppUITests.swift */; };
+		76B8A4B01CD9D1C300FBD668 /* GetData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76B8A4AF1CD9D1C300FBD668 /* GetData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		76B8A49D1CD9CA4F00FBD668 /* wheatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wheatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76B8A4A11CD9CA4F00FBD668 /* wheatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wheatherAppUITests.swift; sourceTree = "<group>"; };
 		76B8A4A31CD9CA4F00FBD668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76B8A4AF1CD9D1C300FBD668 /* GetData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				76B8A4811CD9CA4F00FBD668 /* AppDelegate.swift */,
+				76B8A4AF1CD9D1C300FBD668 /* GetData.swift */,
 				76B8A4831CD9CA4F00FBD668 /* ViewController.swift */,
 				76B8A4851CD9CA4F00FBD668 /* Main.storyboard */,
 				76B8A4881CD9CA4F00FBD668 /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				76B8A4841CD9CA4F00FBD668 /* ViewController.swift in Sources */,
 				76B8A4821CD9CA4F00FBD668 /* AppDelegate.swift in Sources */,
+				76B8A4B01CD9D1C300FBD668 /* GetData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				76B8A4A81CD9CA4F00FBD668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76B8A4A91CD9CA4F00FBD668 /* Build configuration list for PBXNativeTarget "wheatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				76B8A4AB1CD9CA4F00FBD668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		76B8A4AC1CD9CA4F00FBD668 /* Build configuration list for PBXNativeTarget "wheatherAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				76B8A4AE1CD9CA4F00FBD668 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
